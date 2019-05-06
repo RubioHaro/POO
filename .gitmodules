@@ -1,6 +1,6 @@
 [submodule "javascript"]
 	path = javascript
-	url = ""
+	url = "https://github.com/RubioHaro/POO-javascript.git"
 [submodule "java"]
 	path = java
-	url = ""
+	url = "https://github.com/RubioHaro/POO-java.git"

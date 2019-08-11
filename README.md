@@ -10,4 +10,4 @@ by <a href="https://github.com/RubioHaro"> Rodrigo R. Rubio Haro</a>
 
 - [Javascript](https://github.com/RubioHaro/POO-javascript.git)
 
-IPN | ESCOM
+INSTITUTO POLITECNICO NACIONAL | ESCUELA SUPERIOR DE COMPUTO

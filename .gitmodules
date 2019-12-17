@@ -5,4 +5,5 @@
 	path = java
 	url = "https://github.com/RubioHaro/POO-java.git"
 [submodule "Smalltalk"]
-	url = https://github.com/RubioHaro/POO-Smalltalk.git
+	path = smalltalk
+	url = "https://github.com/RubioHaro/POO-Smalltalk.git"

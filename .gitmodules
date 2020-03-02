@@ -7,3 +7,6 @@
 [submodule "Smalltalk"]
 	path = smalltalk
 	url = "https://github.com/RubioHaro/POO-Smalltalk.git"
+[submodule "POO-python"]
+	path = POO-python
+	url = https://github.com/RubioHaro/POO-python.git

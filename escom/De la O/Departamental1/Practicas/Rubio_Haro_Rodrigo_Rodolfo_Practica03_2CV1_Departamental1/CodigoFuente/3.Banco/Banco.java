@@ -18,7 +18,7 @@ public class Banco {
         while (condicion) {
             int monto = pedirMonto();
 
-            if (montoValido(monto)) {
+            if (validarMonto(monto)) {
                 cheque.establecerMonto(monto);
                 cheque.imprimirCheque();
                 System.out.println("Cheque generado gracias por usar Banco Patito de Mexico S.A. de C.V.");
@@ -35,7 +35,7 @@ public class Banco {
 
     }
 
-    public boolean montoValido(int monto) {
+    public boolean validarMonto(int monto) {
         return (monto > 0 && monto < 10000000L);
     }
 

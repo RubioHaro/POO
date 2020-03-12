@@ -1,10 +1,10 @@
 /*Rodrigo R. Rubio Haro*/
 
 // se corrigió clase por class
-public class ErrorDeDesbordamiento {
+public class Desbordamiento {
 
 	public static void main(String[] args) {
-		ErrorDeDesbordamiento error = new ErrorDeDesbordamiento();
+		Desbordamiento error = new Desbordamiento();
 		error.imprimirError();
 	}
 
@@ -12,11 +12,11 @@ public class ErrorDeDesbordamiento {
 	int negativo = (int) (-2 - 2000000000000L);
 
 	// Se incluyo el metodo imprimirError en la clase ErrorDeDesbordamiento
-	public void imprimirError (){
+	public void imprimirError() {
 
-		// se corrigió la instrucción System.out.println (le faltaban los puntos y tenia argumentos de mas)	
+		// se corrigió la instrucción System.out.println (le faltaban los puntos y tenia
+		// argumentos de mas)
 		System.out.println("positivo contiene: " + positivo);
 		System.out.println("negativo contiene: " + negativo);
 	}
-} //corchete inecesario borrado
-
+} // corchete inecesario borrado

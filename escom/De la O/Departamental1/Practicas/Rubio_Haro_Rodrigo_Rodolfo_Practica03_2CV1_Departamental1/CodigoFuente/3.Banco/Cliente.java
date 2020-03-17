@@ -1,7 +1,6 @@
 
 public class Cliente {
     private Cuenta cuentaCheques;
-    private Chequera chequera;
     private String nombre;
     private String RFC;
     private int id;
@@ -10,12 +9,12 @@ public class Cliente {
         this.cuentaCheques = cuentaCheques;
     }
 
-    public Cheque proporcionarCheque(){
-        return chequera.obtenerChequeNuevo();
+    public Cuenta proporcionarCuente(){
+        return cuentaCheques;
     }
 
-    public void establecerChequera(Chequera chequera){
-        this.chequera = chequera;
+    public Cheque proporcionarCheque(){
+        return cuentaCheques.obtenerCheque();
     }
 
     public void establecerRFC(String RFC){

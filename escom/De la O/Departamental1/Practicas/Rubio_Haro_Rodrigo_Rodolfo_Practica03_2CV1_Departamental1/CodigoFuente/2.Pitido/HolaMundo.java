@@ -2,8 +2,9 @@
 public class HolaMundo {
     // Se corrigio string por String
     public static void main(String args[]) {
-        Mensaje msg = new Mensaje();
+        Mensaje mensaje = new Mensaje();
         Pitido pitido = new Pitido();
-        msg.recibirContenido(""+ pitido + pitido + pitido + "Hola Mundo Nuevamente, en todos los planetas");
+        mensaje.recibirContenido(pitido + "Hola Mundo Nuevamente, en todos los planetas");
+		mensaje.imprimirMensaje();
     }
 }

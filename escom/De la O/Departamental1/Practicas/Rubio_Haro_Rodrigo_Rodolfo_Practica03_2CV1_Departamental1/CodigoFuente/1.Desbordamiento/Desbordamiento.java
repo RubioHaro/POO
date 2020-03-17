@@ -4,19 +4,23 @@
 public class Desbordamiento {
 
 	public static void main(String[] args) {
-		Desbordamiento error = new Desbordamiento();
-		error.imprimirError();
-	}
 
-	int positivo = (int) (500000000000000L + 5000000000000L);
-	int negativo = (int) (-2 - 2000000000000L);
+		Numero positivo = new Numero();
+		Numero negativo = new Numero();
 
-	// Se incluyo el metodo imprimirError en la clase ErrorDeDesbordamiento
-	public void imprimirError() {
+		positivo.establecerNumero(2147483648L+2147483648L);
+		// 505000000000000   ÷   2147483647 = 235,158.9501999127
 
-		// se corrigió la instrucción System.out.println (le faltaban los puntos y tenia
-		// argumentos de mas)
-		System.out.println("positivo contiene: " + positivo);
-		System.out.println("negativo contiene: " + negativo);
+		negativo.establecerNumero(-2147483648);
+		// 505000000000000   ÷   2147483647 = 235,158.9501999127
+
+		Mensaje mensaje1 = new Mensaje();
+		Mensaje mensaje2 = new Mensaje();
+
+		 mensaje1.recibirContenido("positivo: "+ positivo);
+		 mensaje2.recibirContenido("negativo: "+ negativo);
+
+		mensaje1.imprimir();
+		mensaje2.imprimir();
 	}
 } // corchete inecesario borrado

@@ -49,6 +49,37 @@ public class Cuenta {
 
     public void imprimirEstadoCuenta() {
         System.out.println("**************************************************");
+        System.out.println("Datos del cliente:");
+        /*
+         * Nombre
+         * Direccion
+         * 
+         * No. trajeta
+         * RFC cliente
+         * 
+         * Informacion de la cuenta
+         * Limite de credito
+         * Credito disponible
+         * Fecha de corte
+         * Periodo
+         * Dias del periodo
+         * Contrato: Cuenta CLABE
+         * 
+         * Promedio de saldos diarios
+         * promedio de saldos diarios vencidos
+         * Tasa anual por saldos a favor
+         * 
+         * RESUMEN DE SALDOS Y MOVIMIENTOS
+         * Saldo al corte anterior
+         * Compras y disposisiones
+         * Pagos
+         * Otros Abonos
+         * IVA
+         * Saldo actual al corte
+         * Saldo de pagos fijos
+         * Saldo Total
+         * 
+         */
         System.out.println("ESTADO DE CUENTA: " + numeroCuenta);
         articulos.imprimir();
         System.out.println("Saldo Inicial: $" + saldoInicial + " pesos al " + inicioDePeriodo.toLocaleString());

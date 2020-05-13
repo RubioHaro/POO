@@ -1,7 +1,7 @@
 /**
  * Main
  */
-public class Main {
+public class Departamental {
 
     public static void main(String[] args) {
         // Articulo articulo, Cliente cliente, Double precio

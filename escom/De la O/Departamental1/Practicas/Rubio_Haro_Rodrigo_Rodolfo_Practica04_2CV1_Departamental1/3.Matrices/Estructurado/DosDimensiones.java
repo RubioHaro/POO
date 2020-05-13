@@ -1,4 +1,4 @@
-class Matrix {
+class DosDimensiones {
 
     public static void main(String args[]) {
 

@@ -1,6 +1,4 @@
 /*Rodrigo R. Rubio Haro*/
-
-// se corrigió clase por class
 public class Desbordamiento {
 
 	public static void main(String[] args) {
@@ -23,4 +21,4 @@ public class Desbordamiento {
 		mensaje1.imprimir();
 		mensaje2.imprimir();
 	}
-} // corchete inecesario borrado
+} 

@@ -48,7 +48,7 @@ public class Cheque {
 
     public void imprimirCheque() {
         System.out.println(ANSI_GREEN
-                + "*******************************************************************************************************"
+                + "*******************************************************************"
                 + ANSI_RESET);
         System.out.println(ANSI_BLUE + "Banco Patito de Mexico S.A de C.V. \t\t\t\t" + ANSI_RESET + "Fecha: "
                 + fechaEmision.toString() + ANSI_RESET);
@@ -58,7 +58,7 @@ public class Cheque {
                 + " pesos mexicanos (mxn)");
         System.out.println("Firma:_________________\t\t\t\t Folio:" + this.folio);
         System.out.println(ANSI_GREEN
-                + "*******************************************************************************************************"
+                + "*******************************************************************"
                 + ANSI_RESET);
     }
 }

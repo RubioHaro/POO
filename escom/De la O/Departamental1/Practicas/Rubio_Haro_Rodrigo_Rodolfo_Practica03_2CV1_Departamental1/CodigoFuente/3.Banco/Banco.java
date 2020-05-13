@@ -1,6 +1,4 @@
 
-import java.lang.management.MonitorInfo;
-
 public class Banco {
     private String nombre;
     private Cliente clientes[];
@@ -22,7 +20,7 @@ public class Banco {
         Cuenta cuentaCheques = new Cuenta();
         cuentaCheques.establecerFondos(fondos);
         cuentaCheques.establecerCLABE(GenerarCLABE());
-        cliente.establecerChequera(generarChequera(cliente));
+        cuentaCheques.establecerChequera(generarChequera(cliente));
         return cuentaCheques;
     }
 
@@ -34,7 +32,7 @@ public class Banco {
         for (int i = 0; i < cantidad; i++) {
             chequeGenerado.establecerCliente(titular);
             chequeGenerado.establecerFechaEmision();
-            chequeGenerado.establecerFolio(titular.obtenerId() + "-0896-" + i);
+            chequeGenerado.establecerFolio(591 + "-0896-" + i);
             cheques[i] = chequeGenerado;
         }
         chequera.establecerCheques(cheques);

@@ -3,7 +3,6 @@ public class Cliente {
     private Cuenta cuentaCheques;
     private String nombre;
     private String RFC;
-    private int id;
 
     public void establecerCuentaCheques(Cuenta cuentaCheques){
         this.cuentaCheques = cuentaCheques;
@@ -29,18 +28,8 @@ public class Cliente {
         return nombre;
     }
 
-    public void establecerId(int id){
-        this.id = id;
-    }
-
-    public int obtenerId(){
-        return id;
-    }
-
     @Override
     public String toString() {
         return this.nombre + ", RFC: " + this.RFC +  ", " + cuentaCheques + "";
     }
-
-
 }

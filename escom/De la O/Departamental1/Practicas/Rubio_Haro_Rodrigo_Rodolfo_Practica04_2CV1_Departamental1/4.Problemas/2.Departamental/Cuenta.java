@@ -11,6 +11,10 @@ public class Cuenta {
     private Double saldoInicial;
     private ListaArticulos articulos;
     private Date inicioDePeriodo;
+    private final String ANSI_RED = "\u001B[31m";
+    private final String ANSI_RESET = "\u001B[0m";
+    private final String ANSI_GREEN = "\u001B[32m";
+
 
     public Cuenta(Double saldoInicial, String numeroCuenta, Date inicioDePeriodo) {
         this.numeroCuenta = numeroCuenta;
@@ -31,10 +35,10 @@ public class Cuenta {
         if (verificarLimite(articulo.obtenerPrecio())) {
             saldo = nuevoSaldo;
             articulos.agregarArticulo(articulo);
-            msg = "Mov. cargado:" + articulo + " El nuevo saldo es:" + nuevoSaldo;
+            msg = ANSI_GREEN + "Mov. cargado:" + articulo + " El nuevo saldo es:" + nuevoSaldo + ANSI_RESET;
         } else {
-            msg = "Se ha excedido el limite de credito, no se ha podido cargar:" + articulo + " Tu saldo es: "
-                    + this.saldo + "montoACargar:" + nuevoSaldo;
+            msg = ANSI_RED + "Se ha excedido el limite de credito, no se ha podido cargar:" + articulo
+                    + " Tu saldo es: " + this.saldo + "montoACargar:" + nuevoSaldo + ANSI_RESET;
         }
         return msg;
     }
@@ -51,33 +55,19 @@ public class Cuenta {
         System.out.println("**************************************************");
         System.out.println("Datos del cliente:");
         /*
-         * Nombre
-         * Direccion
+         * Nombre Direccion
          * 
-         * No. trajeta
-         * RFC cliente
+         * No. trajeta RFC cliente
          * 
-         * Informacion de la cuenta
-         * Limite de credito
-         * Credito disponible
-         * Fecha de corte
-         * Periodo
-         * Dias del periodo
-         * Contrato: Cuenta CLABE
+         * Informacion de la cuenta Limite de credito Credito disponible Fecha de corte
+         * Periodo Dias del periodo Contrato: Cuenta CLABE
          * 
-         * Promedio de saldos diarios
-         * promedio de saldos diarios vencidos
-         * Tasa anual por saldos a favor
+         * Promedio de saldos diarios promedio de saldos diarios vencidos Tasa anual por
+         * saldos a favor
          * 
-         * RESUMEN DE SALDOS Y MOVIMIENTOS
-         * Saldo al corte anterior
-         * Compras y disposisiones
-         * Pagos
-         * Otros Abonos
-         * IVA
-         * Saldo actual al corte
-         * Saldo de pagos fijos
-         * Saldo Total
+         * RESUMEN DE SALDOS Y MOVIMIENTOS Saldo al corte anterior Compras y
+         * disposisiones Pagos Otros Abonos IVA Saldo actual al corte Saldo de pagos
+         * fijos Saldo Total
          * 
          */
         System.out.println("ESTADO DE CUENTA: " + numeroCuenta);

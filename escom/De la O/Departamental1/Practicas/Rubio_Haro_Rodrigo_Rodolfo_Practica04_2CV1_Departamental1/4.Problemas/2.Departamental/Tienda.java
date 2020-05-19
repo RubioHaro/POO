@@ -8,22 +8,6 @@ public class Tienda {
 
     public Tienda() {
         articulosEnVenta = new ListaArticulos(100);
-        iniciarInventario();
-    }
-
-    public Cliente registrarCliente() {
-        return new Cliente(new Cuenta(0D, "992-122-212-111", new Date(120, 02, 01)));
-    }
-
-    public void registrarArticulo(Articulo articulo) {
-        articulosEnVenta.agregarArticulo(articulo);
-    }
-
-    public Articulo obtenerArticulo(int index) {
-        return articulosEnVenta.obtenerArticulo(index);
-    }
-
-    private void iniciarInventario() {
         Articulo laptop = new Articulo("OMEN 15", "HPO15X");
         laptop.establecerPrecio(15000D);
 
@@ -38,7 +22,19 @@ public class Tienda {
         registrarArticulo(impresora);
     }
 
-    public void imprimirListaProductos() {
+    public Cliente registrarCliente(String nombre) {
+        return new Cliente(new Cuenta(0D, "992-122-212-111", new Date(120, 02, 01)), nombre);
+    }
+
+    public void registrarArticulo(Articulo articulo) {
+        articulosEnVenta.agregarArticulo(articulo);
+    }
+
+    public Articulo obtenerArticuloEnVenta(int id) {
+        return articulosEnVenta.obtenerArticulo(id);
+    }
+
+    public void imprimirArticulosEnVenta() {
         articulosEnVenta.imprimir();
     }
 

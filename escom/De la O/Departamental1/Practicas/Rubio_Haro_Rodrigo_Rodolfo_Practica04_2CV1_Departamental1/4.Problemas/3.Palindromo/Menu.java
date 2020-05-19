@@ -2,8 +2,10 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Menu {
+    int numero;
 
     public Menu() {
+        numero = 0;
     }
 
     public int DesplegarMenu() {
@@ -11,9 +13,8 @@ public class Menu {
         return leer();
     }
 
-    public int leer() {
+    private int leer() {
         Scanner sc = new Scanner(System.in);
-        int numero = 0;
         numero = sc.nextInt();
         sc.close();
         return numero;

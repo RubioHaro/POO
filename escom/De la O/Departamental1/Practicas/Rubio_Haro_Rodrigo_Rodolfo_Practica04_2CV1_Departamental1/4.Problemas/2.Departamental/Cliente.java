@@ -5,9 +5,9 @@ public class Cliente {
     private Cuenta cuenta;
     private String nombre;
 
-    public Cliente(Cuenta cuenta) {
+    public Cliente(Cuenta cuenta, String nombre) {
         this.cuenta = cuenta;
-        this.nombre = "John Snow";
+        this.nombre = nombre;
     }
 
     public void establecerCuenta(Cuenta cuenta) {

@@ -1,11 +1,12 @@
 /**
  * Palindromo
  */
-public class Palindromo {
+public class InterfazPalindromo {
 
     public static void main(String[] args) {
         Verificador verificador = new Verificador();
         Menu menu = new Menu();
-        verificador.imprimirSiEsPalindromo(menu.DesplegarMenu());
+        int palindromo = menu.DesplegarMenu();
+        verificador.imprimirSiEsPalindromo(palindromo);
     }
 }

@@ -30,4 +30,12 @@ Ejercicio de cuenta del banco, pitido y de desbordamiento
 
 [Reporte](https://github.com/RubioHaro/POO/blob/master/escom/De%20la%20O/Departamental1/Practicas/Rubio_Haro_Rodrigo_Rodolfo_Practica03_2CV1_Departamental1/Rubio_Haro_Rodrigo_Rodolfo_Practica03_2CV1.pdf)
 
+## Práctica 4
+
+Ejercicio de conversion de datos, matrices bidimensionales y tridimensionales, palindromo y tienda departamental.
+
+[Código](https://github.com/RubioHaro/POO/tree/master/escom/De%20la%20O/Departamental1/Practicas/Rubio_Haro_Rodrigo_Rodolfo_Practica04_2CV1_Departamental1)
+
+[Reporte](https://github.com/RubioHaro/POO/blob/master/escom/De%20la%20O/Departamental1/Practicas/Rubio_Haro_Rodrigo_Rodolfo_Practica04_2CV1_Departamental1/Rubio_Haro_Rodrigo_Rodolfo_Practica04_2CV1.pdf)
+
 INSTITUTO POLITECNICO NACIONAL | ESCUELA SUPERIOR DE COMPUTO

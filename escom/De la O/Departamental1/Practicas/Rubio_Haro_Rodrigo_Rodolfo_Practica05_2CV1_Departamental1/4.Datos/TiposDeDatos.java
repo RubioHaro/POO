@@ -1,7 +1,7 @@
 
 public class TiposDeDatos {
     public static void main(String[] args) {
-        Datos lista = new Datos();
+        ListaTiposDatos lista = new ListaTiposDatos();
         lista.imprimirDatos();
     }
 }

@@ -1,4 +1,4 @@
-public class Conversion {
+public class Conversiones {
 
     public static void main(String args[]) {
         Convertidor convertidor = new Convertidor();

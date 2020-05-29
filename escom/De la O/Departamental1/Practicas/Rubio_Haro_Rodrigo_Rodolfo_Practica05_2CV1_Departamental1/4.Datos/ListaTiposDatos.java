@@ -1,6 +1,6 @@
 /*Rodrigo R. Rubio Haro*/
 
-public class Datos {
+public class ListaTiposDatos {
     private Integer _entero;
     private Float _float;
     private Byte _byte;
@@ -10,7 +10,7 @@ public class Datos {
     private Double _doble;
     private Boolean _boolean;
 
-    public Datos() {
+    public ListaTiposDatos() {
         int n=10000;
         _char= 'c';
         _entero = (int) ((Math.random() * n) + 1);
@@ -23,6 +23,7 @@ public class Datos {
     }
 
     public void imprimirDatos(){
+        System.out.println("Imprimiendo datos haciendo uso de envoltorios");
         System.out.println("dato Integer: " + _entero);
         System.out.println("dato Float: " + _float);
         System.out.println("dato Byte: " + _byte);

@@ -9,12 +9,12 @@
 Ejercicios realizados en la clase de Programación Orientada a Objetos. 
 Profesor: Saul De la O Torres
 
-## Practica 1
+## Práctica 1
 
 Instalación de JDK para Windows y para Linux
 [Reporte](https://github.com/RubioHaro/POO/blob/master/escom/De%20la%20O/Departamental1/Practicas/Rubio_Haro_Rodrigo_Rodolfo_Practica01_2CV1_Departamental1/Rubio_Haro_Rodrigo_Rodolfo_Practica01_2CV1.pdf)
 
-## Practica 2
+## Práctica 2
 
 Desarrollo de conceptos basicos de clases, una clase Mensaje y una calculadora de equaciones cuadraticas (chicharronera).
 
@@ -22,7 +22,7 @@ Desarrollo de conceptos basicos de clases, una clase Mensaje y una calculadora d
 
 [Reporte](https://github.com/RubioHaro/POO/blob/master/escom/De%20la%20O/Departamental1/Practicas/Rubio_Haro_Rodrigo_Rodolfo_Practica02_2CV1_Departamental1/Rubio_Haro_Rodrigo_Rodolfo_Practica02_2CV1.pdf)
 
-## Practica 3
+## Práctica 3
 
 Ejercicio de cuenta del banco, pitido y de desbordamiento
 
